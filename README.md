@@ -62,9 +62,9 @@ npx hardhat run scripts/deploy.js --network localhost
 Create a `.env` file in the project root:
 
 ```env
-ALCHEMY_API_KEY=your-alchemy-api-key
-PRIVATE_KEY=your-wallet-private-key
-ETHERSCAN_API_KEY=your-etherscan-api-key
+SEPOLIA_PRIVATE_KEY=your_private_key
+SEPOLIA_RPC_URL=your_rpc_url
+ETHERSCAN_API_KEY=your_eth_scan
 ```
 
 Deploy:
